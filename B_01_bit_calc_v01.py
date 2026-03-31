@@ -106,7 +106,7 @@ def calc_text_bits():
 
     # Set up answer and return it
     answer = (f"{response} has {num_chars} characters. "
-              f"\nWe need {num_bits} x 8 bits to represent it "
+              f"\nWe need {num_chars} x 8 bits to represent it "
               f"\nwhich is {num_bits} bits")
 
     return answer
